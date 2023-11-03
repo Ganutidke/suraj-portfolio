@@ -4,6 +4,7 @@ import {
   AiFillGithub,
   AiFillInstagram,
 } from "react-icons/ai";
+import HeroImg from "../../assets/hero-img.jpg"
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { FaPlay } from "react-icons/fa";
@@ -104,8 +105,8 @@ const Hero = () => {
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
             data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
-              src='https://i.postimg.cc/pTn61Gr1/Untitled-design222-modified.png'
+              className=" h-[90%] rounded-full w-full object-cover md:h-[95%] md:m-auto sm:m-0"
+              src={HeroImg}
               // src={mine}
               alt="mine"
             />
